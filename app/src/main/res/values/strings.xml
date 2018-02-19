@@ -20,6 +20,7 @@
     <string name="gadgeti_memorije">Gadgeti &amp; Memorije</string>
 
     <!-- Smartphone brands -->
+    <string name="alcatel">Alcatel</string>
     <string name="apple">Apple</string>
     <string name="google">Google</string>
     <string name="htc">HTC</string>
@@ -32,6 +33,7 @@
     <string name="samsung">Samsung</string>
     <string name="sony">Sony</string>
     <string name="xiaomi">Xioami</string>
+    <string name="zte">ZTE</string>
 
     <!-- Universal resources -->
     <string name="univerzalna_futrola_mobitel">Univerzalne futrole za mobitel</string>
@@ -40,5 +42,17 @@
     <!-- Tablet items -->
     <string name="futrole">Futrole za tablet</string>
     <string name="kaljeno_staklo_tablet">Kaljeno staklo za tablet</string>
+
+    <!-- Other menu strings -->
+    <string name="kamere">Kamere</string>
+    <string name="adapteri">Adapteri</string>
+    <string name="drzaci">Držači</string>
+    <string name="punjaci">Punjači</string>
+    <string name="slusalice">Slušalice</string>
+    <string name="zvucnici">Zvučnici</string>
+    <string name="gadgeti">Gadgeti</string>
+    <string name="memorije">Memorije</string>
+    <string name="racunalna_periferija">Računalna periferija</string>
+    <string name="ostala_oprema">Ostala oprema</string>
 
 </resources>

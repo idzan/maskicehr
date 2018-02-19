@@ -21,6 +21,9 @@
     <item android:title="@string/oprema_za_mobitel">
         <menu>
             <item
+                android:id="@+id/mob_alcatel"
+                android:title="@string/alcatel" />
+            <item
                 android:id="@+id/mob_apple"
                 android:title="@string/apple" />
             <item
@@ -56,6 +59,9 @@
             <item
                 android:id="@+id/mob_xiaomi"
                 android:title="@string/xiaomi" />
+            <item
+                android:id="@+id/mob_zte"
+                android:title="@string/zte" />
         </menu>
     </item>
 
@@ -80,5 +86,54 @@
                 android:title="@string/kaljeno_staklo_tablet" />
         </menu>
     </item>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_cameras"
+            android:title="kamere" />
+    </group>
+
+    <item android:title="@string/adapteri_drzaci" >
+        <menu>
+            <item
+                android:id="@+id/nav_adapters"
+                android:title="@string/adapteri" />
+            <item
+                android:id="@+id/nav_holders"
+                android:title="@string/drzaci" />
+        </menu>
+    </item>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_chargers"
+            android:title="@string/punjaci" />
+        <item
+            android:id="@+id/nav_headsets"
+            android:title="@string/slusalice" />
+        <item
+            android:id="@+id/nav_speakers"
+            android:title="@string/zvucnici" />
+    </group>
+
+    <item android:title="@string/gadgeti_memorije">
+        <menu>
+            <item
+                android:id="@+id/nav_gadgets"
+                android:title="@string/gadgeti" />
+            <item
+                android:id="@+id/nav_memory"
+                android:title="@string/memorije" />
+        </menu>
+    </item>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_racunalna_oprema"
+            android:title="@string/racunalna_periferija" />
+        <item
+            android:id="@+id/nav_ostala_oprema"
+            android:title="@string/ostala_oprema" />
+    </group>
 
 </menu>
