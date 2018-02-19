@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">maskice.hr</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="caption">Only best for your smartphone!</string>
+    <string name="naslovnica">Homepage</string>
+    <string name="pretrazi">Search this site</string>
+    <string name="racun">My Account</string>
+    <string name="kosarica">Cart</string>
+    <string name="oprema_za_mobitel">Cases for smartphones</string>
+    <string name="oprema_za_mobitel_univerzalno">Universal Cases for Smartphones</string>
+    <string name="oprema_za_tablet">Cases for tablets</string>
+    <string name="adapteri_drzaci">Adapters &amp; Holders</string>
+    <string name="gadgeti_memorije">Gadgets &amp; Memory</string>
+    <string name="apple">Apple</string>
+    <string name="google">Google</string>
+    <string name="htc">HTC</string>
+    <string name="huawei">Huawei</string>
+    <string name="lenovo">Lenovo</string>
+    <string name="lg">LG</string>
+    <string name="microsoft">Microsoft</string>
+    <string name="motorola">Motorola</string>
+    <string name="nokia">Nokia</string>
+    <string name="samsung">Samsung</string>
+    <string name="sony">Sony</string>
+    <string name="xiaomi">Xioami</string>
+    <string name="univerzalna_futrola_mobitel">d GlaUniversal phone cases</string>
+    <string name="univerzalno_kaljeno_mobitel">Universal Tempered Glass for Smartphones</string>
+    <string name="kaljeno_staklo_tablet">Tempered Glass for Tablets</string>
+    <string name="futrole">Cases for Tablets</string>
+</resources>
