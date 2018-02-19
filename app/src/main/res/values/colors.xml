@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ffd819</color>
+    <color name="colorPrimaryDark">#ffd830</color>
+    <color name="colorAccent">#0D3FFF</color>
+    <color name="side_nav_bar">#ffd819</color>
+</resources>

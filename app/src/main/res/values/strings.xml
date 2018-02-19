@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">maskice.hr</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="caption">Samo najbolje za Vaš mobitel!</string>
+
+    <string name="action_settings">Settings</string>
+</resources>
