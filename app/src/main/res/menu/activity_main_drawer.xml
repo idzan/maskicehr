@@ -5,33 +5,79 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_camera"
-            android:icon="@drawable/ic_menu_camera"
-            android:title="Import" />
+            android:id="@+id/homepage"
+            android:title="@string/naslovnica" />
         <item
-            android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="Gallery" />
+            android:id="@+id/page_search"
+            android:title="@string/pretrazi" />
         <item
-            android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="Slideshow" />
+            android:id="@+id/cart_page"
+            android:title="@string/kosarica" />
         <item
-            android:id="@+id/nav_manage"
-            android:icon="@drawable/ic_menu_manage"
-            android:title="Tools" />
+            android:id="@+id/my_account_page"
+            android:title="@string/kosarica" />
     </group>
 
-    <item android:title="Communicate">
+    <item android:title="@string/oprema_za_mobitel">
         <menu>
             <item
-                android:id="@+id/nav_share"
-                android:icon="@drawable/ic_menu_share"
-                android:title="Share" />
+                android:id="@+id/mob_apple"
+                android:title="@string/apple" />
             <item
-                android:id="@+id/nav_send"
-                android:icon="@drawable/ic_menu_send"
-                android:title="Send" />
+                android:id="@+id/mob_google"
+                android:title="@string/google" />
+            <item
+                android:id="@+id/mob_htc"
+                android:title="@string/htc" />
+            <item
+                android:id="@+id/mob_huawei"
+                android:title="@string/huawei" />
+            <item
+                android:id="@+id/mob_lenovo"
+                android:title="@string/lenovo" />
+            <item
+                android:id="@+id/mob_lg"
+                android:title="@string/lg" />
+            <item
+                android:id="@+id/mob_mcrosoft"
+                android:title="@string/microsoft" />
+            <item
+                android:id="@+id/mob_motorola"
+                android:title="@string/motorola" />
+            <item
+                android:id="@+id/mob_nokia"
+                android:title="@string/nokia" />
+            <item
+                android:id="@+id/mob_samsung"
+                android:title="@string/samsung"/>
+            <item
+                android:id="@+id/mob_sony"
+                android:title="@string/sony" />
+            <item
+                android:id="@+id/mob_xiaomi"
+                android:title="@string/xiaomi" />
+        </menu>
+    </item>
+
+    <item android:title="@string/oprema_za_mobitel_univerzalno">
+        <menu>
+            <item
+                android:id="@+id/univerzalno_futrole"
+                android:title="@string/univerzalna_futrola_mobitel" />
+            <item
+                android:id="@+id/univerzalno_kaljeno"
+                android:title="@string/univerzalno_kaljeno_mobitel" />
+        </menu>
+    </item>
+
+    <item android:title="@string/oprema_za_tablet">
+        <menu>
+            <item
+                android:id="@+id/tablet_futrole"
+                android:title="@string/futrole"/>
+            <item
+                android:id="@+id/tablet_kaljeno"
+                android:title="@string/kaljeno_staklo_tablet" />
         </menu>
     </item>
 
