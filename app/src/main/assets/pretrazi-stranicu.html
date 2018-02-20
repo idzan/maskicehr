@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<style type="text/css">
+		body {
+			margin: 0 auto;
+			min-width: 320px;
+			max-width: 1080px;
+			width: 100%;
+		}
+		img {
+			min-width: 320px;
+			width: 100%;
+			max-width: 1080px;
+			height: auto;
+		}
+		main {
+			width: 80%;
+		}
+
+		/* GCSE */
+		input.gsc-input {
+			border-radius: 50px;
+			font-size: 15px;
+		}
+		input.gsc-search-button {
+			border-radius: 50px;
+			font-size: 15px;
+		}
+		div.gsc-adBlock {
+			display:none;
+		}
+		.autocomplete-suggestions, .autocomplete-suggestion, .autocomplete-suggestions:hover , .autocomplete-suggestion:hover {
+			background: transparent;
+			border: 0px solid transparent;
+		}
+	</style>
+	<title>Pretražite stranicu</title>
+</head>
+<body>
+<script>
+  (function() {
+    var cx = '003773755886757333442:tmhfvwcspro';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:search></gcse:search>
+</body>
+</html>

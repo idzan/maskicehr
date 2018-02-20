@@ -50,14 +50,16 @@
             android:id="@+id/nav_speakers"
             android:title="@string/zvucnici" />
 
-    <item android:title="@string/gadgeti_memorije"/>
+        <item android:title="@string/gadgeti_memorije"/>
 
         <item
             android:id="@+id/nav_racunalna_oprema"
             android:title="@string/racunalna_periferija" />
+
         <item
             android:id="@+id/nav_ostala_oprema"
             android:title="@string/ostala_oprema" />
+
     </group>
 
 </menu>
