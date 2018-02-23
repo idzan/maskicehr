@@ -58,9 +58,31 @@ public class MainActivity extends AppCompatActivity
 
         } else if (id == R.id.my_account_page) {
 
-        } else if (id == R.id.phones) {
+        } else if (id == R.id.nav_phones) {
 
-        } else if (id == R.id.universal_phone_cases) {
+        } else if (id == R.id.nav_universal_phone_cases) {
+
+        } else if (id == R.id.nav_tablets) {
+
+        } else if (id == R.id.nav_cameras) {
+
+        } else if (id == R.id.nav_adapters) {
+
+        } else if (id == R.id.nav_holders) {
+
+        } else if (id == R.id.nav_chargers) {
+
+        } else if (id == R.id.nav_headsets) {
+
+        } else if (id == R.id.nav_speakers) {
+
+        } else if (id == R.id.nav_gadgets) {
+
+        } else if (id == R.id.nav_memory) {
+
+        } else if (id == R.id.nav_racunalna_oprema) {
+
+        } else if (id == R.id.nav_ostala_oprema) {
 
         }
 
