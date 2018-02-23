@@ -26,18 +26,18 @@
             android:title="@string/oprema_za_mobitel_univerzalno" />
 
         <item
-            android:id="@+id/nav:tablets"
+            android:id="@+id/nav_tablets"
             android:title="@string/oprema_za_tablet" />
 
         <item
             android:id="@+id/nav_cameras"
             android:title="@string/kamere" />
         <item
-            android:id="@+id/adapters"
+            android:id="@+id/nav_adapters"
             android:title="@string/adapteri" />
 
         <item
-            android:id="@+id/holders"
+            android:id="@+id/nav_holders"
             android:title="@string/drzaci" />
 
         <item
