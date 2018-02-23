@@ -18,15 +18,15 @@
             android:title="@string/racun" />
 
         <item
-            android:id="@+id/phones"
+            android:id="@+id/nav_phones"
             android:title="@string/oprema_za_mobitel" />
 
         <item
-            android:id="@+id/universal_phone_cases"
+            android:id="@+id/nav_universal_phone_cases"
             android:title="@string/oprema_za_mobitel_univerzalno" />
 
         <item
-            android:id="@+id/tablets"
+            android:id="@+id/nav:tablets"
             android:title="@string/oprema_za_tablet" />
 
         <item
