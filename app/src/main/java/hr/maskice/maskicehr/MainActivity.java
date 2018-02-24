@@ -93,7 +93,7 @@ public class MainActivity extends AppCompatActivity
         } else if (id == R.id.nav_veleprodaja) {
 
         } else if (id == R.id.nav_about_app) {
-            
+
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
