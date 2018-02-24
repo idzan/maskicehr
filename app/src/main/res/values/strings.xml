@@ -24,5 +24,10 @@
     <string name="memorije">Memorije</string>
     <string name="racunalna_periferija">Računalna periferija</string>
     <string name="ostala_oprema">Ostala oprema</string>
+    <string name="o_nama">O nama</string>
+    <string name="prodajna_mjesta">Prodajna mjesta</string>
+    <string name="veleprodaja">Veleprodaja</string>
+    <string name="kontakt">Kontakt</string>
+    <string name="about_app">O aplikaciji</string>
 
 </resources>

@@ -84,6 +84,16 @@ public class MainActivity extends AppCompatActivity
 
         } else if (id == R.id.nav_ostala_oprema) {
 
+        } else if (id == R.id.nav_o_nama) {
+
+        } else if (id == R.id.nav_kontakt) {
+
+        } else if (id == R.id.nav_prodajna_mjesta) {
+
+        } else if (id == R.id.nav_veleprodaja) {
+
+        } else if (id == R.id.nav_about_app) {
+            
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);

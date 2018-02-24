@@ -66,6 +66,26 @@
             android:id="@+id/nav_ostala_oprema"
             android:title="@string/ostala_oprema" />
 
+        <item
+            android:id="@+id/nav_o_nama"
+            android:title="@string/o_nama" />
+
+        <item
+            android:id="@+id/nav_prodajna_mjesta"
+            android:title="@string/prodajna_mjesta" />
+
+        <item
+            android:id="@+id/nav_veleprodaja"
+            android:title="@string/veleprodaja" />
+
+        <item
+            android:id="@+id/nav_kontakt"
+            android:title="@string/kontakt" />
+
+        <item
+            android:id="@+id/nav_about_app"
+            android:title="@string/about_app" />
+
     </group>
 
 </menu>
