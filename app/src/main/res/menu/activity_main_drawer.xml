@@ -8,9 +8,6 @@
             android:id="@+id/homepage"
             android:title="@string/naslovnica" />
         <item
-            android:id="@+id/page_search"
-            android:title="@string/pretrazi" />
-        <item
             android:id="@+id/cart_page"
             android:title="@string/kosarica" />
         <item
