@@ -1,6 +1,7 @@
 package hr.maskice.maskicehr;
 
 import android.os.Bundle;
+import android.support.design.widget.FloatingActionButton;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentTransaction;
 import android.view.View;
@@ -22,6 +23,7 @@ public class MainActivity extends AppCompatActivity
         setContentView(R.layout.activity_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
 
         if (savedInstanceState == null) {
             Bundle newBundle = new Bundle();
@@ -67,13 +69,14 @@ public class MainActivity extends AppCompatActivity
             mBundle.putString("link", "https://maskice.hr");
             mFragment = new WebLoader();
             mFragment.setArguments(mBundle);
-
-        } else if (id == R.id.page_search) {
-
         } else if (id == R.id.cart_page) {
-
+            mBundle.putString("link", "https://maskice.hr/kosarica/");
+            mFragment = new WebLoader();
+            mFragment.setArguments(mBundle);
         } else if (id == R.id.my_account_page) {
-
+            mBundle.putString("link", "https://maskice.hr/moj-racun/");
+            mFragment = new WebLoader();
+            mFragment.setArguments(mBundle);
         } else if (id == R.id.nav_phones) {
 
         } else if (id == R.id.nav_universal_phone_cases) {
@@ -101,15 +104,25 @@ public class MainActivity extends AppCompatActivity
         } else if (id == R.id.nav_ostala_oprema) {
 
         } else if (id == R.id.nav_o_nama) {
-
+            mBundle.putString("link", "file:///android_asset/o-nama.html");
+            mFragment = new WebLoader();
+            mFragment.setArguments(mBundle);
         } else if (id == R.id.nav_kontakt) {
-
+            mBundle.putString("link", "file:///android_asset/kontakt.html");
+            mFragment = new WebLoader();
+            mFragment.setArguments(mBundle);
         } else if (id == R.id.nav_prodajna_mjesta) {
-
+            mBundle.putString("link", "file:///android_asset/poslovnice.html");
+            mFragment = new WebLoader();
+            mFragment.setArguments(mBundle);
         } else if (id == R.id.nav_veleprodaja) {
-
+            mBundle.putString("link", "file:///android_asset/about_app.html");
+            mFragment = new WebLoader();
+            mFragment.setArguments(mBundle);
         } else if (id == R.id.nav_about_app) {
-
+            mBundle.putString("link", "file:///android_asset/about_app.html");
+            mFragment = new WebLoader();
+            mFragment.setArguments(mBundle);
         }
 
         if (mFragment != null) {

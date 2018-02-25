@@ -8,7 +8,6 @@
 
     <!-- Master navigation options -->
     <string name="naslovnica">Naslovnica</string>
-    <string name="pretrazi">Pretraži stranicu</string>
     <string name="racun">Moj račun</string>
     <string name="kosarica">Košarica</string>
     <string name="oprema_za_mobitel">Oprema za mobitel</string>

@@ -71,10 +71,6 @@
             android:title="@string/o_nama" />
 
         <item
-            android:id="@+id/nav_prodajna_mjesta"
-            android:title="@string/prodajna_mjesta" />
-
-        <item
             android:id="@+id/nav_veleprodaja"
             android:title="@string/veleprodaja" />
 
