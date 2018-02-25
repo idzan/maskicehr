@@ -1,8 +1,8 @@
 package hr.maskice.maskicehr;
 
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
+import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentTransaction;
 import android.view.View;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -22,6 +22,17 @@ public class MainActivity extends AppCompatActivity
         setContentView(R.layout.activity_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
+        if (savedInstanceState == null) {
+            Bundle newBundle = new Bundle();
+            newBundle.putString("link", "https://maskice.hr");
+            Fragment newFragment = new WebLoader();
+            newFragment.setArguments(newBundle);
+            FragmentTransaction mFragmentTransaction = getSupportFragmentManager().beginTransaction();
+            mFragmentTransaction.add(R.id.fragment_content, newFragment);
+            mFragmentTransaction.addToBackStack(null);
+            mFragmentTransaction.commit();
+        }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
@@ -47,11 +58,16 @@ public class MainActivity extends AppCompatActivity
     @SuppressWarnings("StatementWithEmptyBody")
     @Override
     public boolean onNavigationItemSelected(MenuItem item) {
+        Fragment mFragment = null;
+        Bundle mBundle = new Bundle();
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
         if (id == R.id.homepage) {
-            // Handle the camera action
+            mBundle.putString("link", "https://maskice.hr");
+            mFragment = new WebLoader();
+            mFragment.setArguments(mBundle);
+
         } else if (id == R.id.page_search) {
 
         } else if (id == R.id.cart_page) {
@@ -93,6 +109,14 @@ public class MainActivity extends AppCompatActivity
         } else if (id == R.id.nav_veleprodaja) {
 
         } else if (id == R.id.nav_about_app) {
+
+        }
+
+        if (mFragment != null) {
+
+            FragmentTransaction mFragmentTransaction = getSupportFragmentManager().beginTransaction();
+            mFragmentTransaction.replace(R.id.fragment_content, mFragment);
+            mFragmentTransaction.commit();
 
         }
 
