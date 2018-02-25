@@ -9,3 +9,6 @@
 .externalNativeBuild
 *.xml___jb_tmp___
 /.idea/*
+app/src/test/java/hr/maskice/maskicehr/ExampleUnitTest.java
+app/src/test/java/hr/maskice/maskicehr/ExampleUnitTest.java
+app/src/androidTest/java/hr/maskice/maskicehr/ExampleInstrumentedTest.java
