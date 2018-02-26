@@ -4,6 +4,7 @@ import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
+import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.view.KeyEvent;
@@ -23,8 +24,9 @@ public class WebLoader extends Fragment {
     public WebView mWebClient;
     String getUrlWeb;
 
+
     @Override
-    public void onViewCreated(View view, Bundle savedInstanceState) {
+    public void onViewCreated (@NonNull View view, Bundle savedInstanceState) {
 
         super.onViewCreated(view, savedInstanceState);
         getUrlWeb = this.getArguments().getString("link");
@@ -35,7 +37,7 @@ public class WebLoader extends Fragment {
 
     @Nullable
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstaceState) {
+    public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container, Bundle savedInstaceState) {
         return inflater.inflate(R.layout.webview_content, container, false);
     }
 
@@ -118,7 +120,7 @@ public class WebLoader extends Fragment {
             return true;
         }
 
-        protected void handleTelLinks(String link) {
+        void handleTelLinks(String link) {
             Intent phoneIntent = new Intent(Intent.ACTION_DIAL);
             phoneIntent.setData(Uri.parse(link));
             startActivity(phoneIntent);
