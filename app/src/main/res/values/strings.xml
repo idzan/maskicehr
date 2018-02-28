@@ -46,16 +46,8 @@
             \n<li>Dankovečka ulica 6 – Zagreb, Dubrava</li>
         \n</ul>
     </string>
-    <!--<li>Selska 153 – Trešnjevka</li>-->
-    <!--<li>Krešićeva ulica 32, Zagreb - Borongaj</li>-->
-    <!--</ul>
-</string>
 
-    <ul>-->
-                <!--<li>Dankovečka ulica 6 – Zagreb, Dubrava</li>-->
-                <!--<li>Selska 153 – Trešnjevka</li>-->
-                <!--<li>Krešićeva ulica 32, Zagreb - Borongaj</li>-->
-            <!--</ul>-->
-        <!--</p>-->
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 </resources>
