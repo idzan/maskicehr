@@ -29,4 +29,33 @@
     <string name="kontakt">Kontakt</string>
     <string name="about_app">O aplikaciji</string>
 
+    <!-- Fragments text -->
+    <string name="o_nama_fragment_title">O nama</string>
+    <string name="about_master_p1">
+            maskice.hr osnovan je 2012. godine u Zagrebu od strane vrhunskih poznavatelja Apple i drugih smartphone uređaja. Višegodišnje iskustvo prodaje opreme vezane uz sve smartphone uređaje garantira Vam potpuno zadovoljstvo prilikom kupovine i vrhunsku kvalitetu usluge od strane naših djelatnika.
+    </string>
+    <string name="about_master_p2">
+        Nudimo veliki izbor kvalitetnih i modernih maskica, futrola, punjača, screen protectora, kaljenih stakala, slušalica, Bluetooth zvučnika i ostalih artikala po najboljim cijenama za mobitele i tablete u različitim bojama i različitog dizajna i time omogućujemo da Vaš telefon ili pak tablet blista, te da u svakom trenutku prati vašu jedinstvenu osobnost
+    </string>
+    <string name="about_master_p3">
+        Svi artikli na našoj internet stranici su dostupni i moguće ih je preuzeti osobno, te isto tako možete pogledati ostatak velike ponude u poslovnicama:
+    </string>
+    <string name="o_nama_lista">
+        \n<ul>
+            \n<li>Dankovečka ulica 6 – Zagreb, Dubrava \n</li>
+            \n<li>Dankovečka ulica 6 – Zagreb, Dubrava</li>
+        \n</ul>
+    </string>
+    <!--<li>Selska 153 – Trešnjevka</li>-->
+    <!--<li>Krešićeva ulica 32, Zagreb - Borongaj</li>-->
+    <!--</ul>
+</string>
+
+    <ul>-->
+                <!--<li>Dankovečka ulica 6 – Zagreb, Dubrava</li>-->
+                <!--<li>Selska 153 – Trešnjevka</li>-->
+                <!--<li>Krešićeva ulica 32, Zagreb - Borongaj</li>-->
+            <!--</ul>-->
+        <!--</p>-->
+
 </resources>

@@ -161,9 +161,7 @@ public class MainActivity extends AppCompatActivity
 
         } else if (id == R.id.nav_o_nama) {
 
-            mBundle.putString("link", "file:///android_asset/o-nama.html");
-            mFragment = new WebLoader();
-            mFragment.setArguments(mBundle);
+            mFragment = new OnamaFragment();
 
         } else if (id == R.id.nav_kontakt) {
 
