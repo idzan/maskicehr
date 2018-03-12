@@ -161,9 +161,7 @@ public class MainActivity extends AppCompatActivity
 
         } else if (id == R.id.nav_o_nama) {
 
-            mBundle.putString("link", "hfile:///android_asset/o-nama.htm");
-            mFragment = new WebLoader();
-            mFragment.setArguments(mBundle);
+            mFragment = new AboutUsFragment();
 
         } else if (id == R.id.nav_kontakt) {
 
@@ -185,9 +183,7 @@ public class MainActivity extends AppCompatActivity
 
         } else if (id == R.id.nav_about_app) {
 
-            mBundle.putString("link", "file:///android_asset/about_app.html");
-            mFragment = new WebLoader();
-            mFragment.setArguments(mBundle);
+            mFragment = new AboutAppFragment();
 
         }
 
