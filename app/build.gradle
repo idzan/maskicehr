@@ -1,11 +1,11 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 'android-P'
+    compileSdkVersion 27
     defaultConfig {
         applicationId "hr.maskice.maskicehr"
         minSdkVersion 21
-        targetSdkVersion 'P'
+        targetSdkVersion 27
         versionCode 20
         versionName "2.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
