@@ -10,6 +10,8 @@
     <string name="naslovnica">Naslovnica</string>
     <string name="racun">Moj račun</string>
     <string name="kosarica">Košarica</string>
+    <string name="pretrazi_stranicu">Pretražite stranicu</string>
+    <string name="prodajni_asortiman">Prodajni asortiman</string>
     <string name="oprema_za_mobitel">Oprema za mobitel</string>
     <string name="oprema_za_mobitel_univerzalno">Univerzalna oprema za mobitel</string>
     <string name="oprema_za_tablet">Oprema za tablet</string>
@@ -23,8 +25,10 @@
     <string name="memorije">Memorije</string>
     <string name="racunalna_periferija">Računalna periferija</string>
     <string name="ostala_oprema">Ostala oprema</string>
+    <string name="o_nama_submenu">O nama i  naše usluge</string>
     <string name="o_nama">O nama</string>
     <string name="prodajna_mjesta">Prodajna mjesta</string>
+    <string name="servis">Servis</string>
     <string name="veleprodaja">Veleprodaja</string>
     <string name="kontakt">Kontakt</string>
     <string name="about_app">O aplikaciji</string>
@@ -47,7 +51,5 @@
         \n</ul>
     </string>
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 </resources>

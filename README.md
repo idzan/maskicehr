@@ -25,6 +25,11 @@ https://forum.xda-developers.com/android/apps-games/app-maskice-hr-web-shop-mobi
 * Android 5.0 i noviji
 * MDPI rezolucija ekrana (320 x 480 px)
 
+## Napomene:
+
+* Posebna beta verzija za Android P verziju, branch - Android-P-Tests
+* Posebna verzija za Android Oreo Go Edition, branch - Oreo-Go-Release
+
 ## Testirani uređaji i Android OS verzije
 
 * Huawei P9 Lite VNS-L31 - Android 7.0
@@ -42,6 +47,7 @@ https://forum.xda-developers.com/android/apps-games/app-maskice-hr-web-shop-mobi
 * Google Pixel XL (emulated) - Android 8.0
 * Google Pixel XL (emulated) - Android O Dev Release
 * Google Pixel XL (emulated) - Android 7.0
+* Google Pixel XL 2 (emulated) - Android P Dev 2 Release
 * LG Nexus 5X (emulated) - Android 6.0
 
 

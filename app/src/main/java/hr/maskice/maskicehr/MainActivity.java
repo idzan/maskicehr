@@ -81,6 +81,12 @@ public class MainActivity extends AppCompatActivity
             mFragment = new WebLoader();
             mFragment.setArguments(mBundle);
 
+        } else if (id == R.id.nav_pretrazi) {
+
+            mBundle.putString("link", "https://maskice.hr/pretrazite-stranicu/");
+            mFragment = new WebLoader();
+            mFragment.setArguments(mBundle);
+
         } else if (id == R.id.nav_phones) {
 
             mBundle.putString("link", "https://maskice.hr/kategorija-proizvoda/oprema-za-mobitele/");
@@ -161,29 +167,39 @@ public class MainActivity extends AppCompatActivity
 
         } else if (id == R.id.nav_o_nama) {
 
-            mFragment = new AboutUsFragment();
+            mBundle.putString("link", "https://maskice.hr/o-nama");
+            mFragment = new WebLoader();
+            mFragment.setArguments(mBundle);
 
         } else if (id == R.id.nav_kontakt) {
 
-            mBundle.putString("link", "file:///android_asset/kontakt.html");
+            mBundle.putString("link", "https://maskice.hr/kontakt");
             mFragment = new WebLoader();
             mFragment.setArguments(mBundle);
 
         } else if (id == R.id.nav_prodajna_mjesta) {
 
-            mBundle.putString("link", "file:///android_asset/poslovnice.html");
+            mBundle.putString("link", "https://maskice.hr/prodajna-mjesta/");
             mFragment = new WebLoader();
             mFragment.setArguments(mBundle);
 
         } else if (id == R.id.nav_veleprodaja) {
 
-            mBundle.putString("link", "file:///android_asset/about_app.html");
+            mBundle.putString("link", "https://maskice.hr/veleprodajni-kupac/");
+            mFragment = new WebLoader();
+            mFragment.setArguments(mBundle);
+
+        } else if (id == R.id.nav_servis) {
+
+            mBundle.putString("link", "https://maskice.hr/servis/");
             mFragment = new WebLoader();
             mFragment.setArguments(mBundle);
 
         } else if (id == R.id.nav_about_app) {
 
-            mFragment = new AboutAppFragment();
+            mBundle.putString("link", "file:///android_asset/about_app.html");
+            mFragment = new WebLoader();
+            mFragment.setArguments(mBundle);
 
         }
 

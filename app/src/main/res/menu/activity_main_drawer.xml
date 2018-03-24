@@ -13,8 +13,69 @@
         <item
             android:id="@+id/my_account_page"
             android:title="@string/racun" />
+        <item
+            android:id="@+id/nav_pretrazi"
+            android:title="@string/pretrazi_stranicu" />
 
         <item
+            android:title="@string/prodajni_asortiman" >
+
+            <menu>
+
+                <item
+                    android:id="@+id/nav_phones"
+                    android:title="@string/oprema_za_mobitel" />
+
+                <item
+                    android:id="@+id/nav_universal_phone_cases"
+                    android:title="@string/oprema_za_mobitel_univerzalno" />
+
+                <item
+                    android:id="@+id/nav_tablets"
+                    android:title="@string/oprema_za_tablet" />
+
+                <item
+                    android:id="@+id/nav_cameras"
+                    android:title="@string/kamere" />
+                <item
+                    android:id="@+id/nav_adapters"
+                    android:title="@string/adapteri" />
+
+                <item
+                    android:id="@+id/nav_holders"
+                    android:title="@string/drzaci" />
+
+                <item
+                    android:id="@+id/nav_chargers"
+                    android:title="@string/punjaci" />
+                <item
+                    android:id="@+id/nav_headsets"
+                    android:title="@string/slusalice" />
+                <item
+                    android:id="@+id/nav_speakers"
+                    android:title="@string/zvucnici" />
+
+                <item
+                    android:id="@+id/nav_gadgets"
+                    android:title="@string/gadgeti"/>
+
+                <item
+                    android:id="@+id/nav_memory"
+                    android:title="@string/memorije" />
+
+                <item
+                    android:id="@+id/nav_racunalna_oprema"
+                    android:title="@string/racunalna_periferija" />
+
+                <item
+                    android:id="@+id/nav_ostala_oprema"
+                    android:title="@string/ostala_oprema" />
+
+            </menu>
+
+        </item>
+
+        <!--<item
             android:id="@+id/nav_phones"
             android:title="@string/oprema_za_mobitel" />
 
@@ -61,9 +122,36 @@
 
         <item
             android:id="@+id/nav_ostala_oprema"
-            android:title="@string/ostala_oprema" />
+            android:title="@string/ostala_oprema" />-->
 
         <item
+            android:title="@string/o_nama_submenu" >
+
+            <menu>
+                <item
+                    android:id="@+id/nav_o_nama"
+                    android:title="@string/o_nama" />
+
+                <item
+                    android:id="@+id/nav_prodajna_mjesta"
+                    android:title="@string/prodajna_mjesta" />
+
+                <item
+                    android:id="@+id/nav_servis"
+                    android:title="@string/servis" />
+
+                <item
+                    android:id="@+id/nav_veleprodaja"
+                    android:title="@string/veleprodaja" />
+
+                <item
+                    android:id="@+id/nav_kontakt"
+                    android:title="@string/kontakt" />
+            </menu>
+
+        </item>
+
+        <!--<item
             android:id="@+id/nav_o_nama"
             android:title="@string/o_nama" />
 
@@ -77,7 +165,7 @@
 
         <item
             android:id="@+id/nav_kontakt"
-            android:title="@string/kontakt" />
+            android:title="@string/kontakt" />-->
 
         <item
             android:id="@+id/nav_about_app"
