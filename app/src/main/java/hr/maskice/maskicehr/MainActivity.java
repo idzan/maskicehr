@@ -197,9 +197,7 @@ public class MainActivity extends AppCompatActivity
 
         } else if (id == R.id.nav_about_app) {
 
-            mBundle.putString("link", "file:///android_asset/about_app.html");
-            mFragment = new WebLoader();
-            mFragment.setArguments(mBundle);
+            mFragment = new AboutAppFragment();
 
         }
 

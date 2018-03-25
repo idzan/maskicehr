@@ -33,23 +33,16 @@
     <string name="kontakt">Kontakt</string>
     <string name="about_app">O aplikaciji</string>
 
-    <!-- Fragments text -->
-    <string name="o_nama_fragment_title">O nama</string>
-    <string name="about_master_p1">
-            maskice.hr osnovan je 2012. godine u Zagrebu od strane vrhunskih poznavatelja Apple i drugih smartphone uređaja. Višegodišnje iskustvo prodaje opreme vezane uz sve smartphone uređaje garantira Vam potpuno zadovoljstvo prilikom kupovine i vrhunsku kvalitetu usluge od strane naših djelatnika.
-    </string>
-    <string name="about_master_p2">
-        Nudimo veliki izbor kvalitetnih i modernih maskica, futrola, punjača, screen protectora, kaljenih stakala, slušalica, Bluetooth zvučnika i ostalih artikala po najboljim cijenama za mobitele i tablete u različitim bojama i različitog dizajna i time omogućujemo da Vaš telefon ili pak tablet blista, te da u svakom trenutku prati vašu jedinstvenu osobnost
-    </string>
-    <string name="about_master_p3">
-        Svi artikli na našoj internet stranici su dostupni i moguće ih je preuzeti osobno, te isto tako možete pogledati ostatak velike ponude u poslovnicama:
-    </string>
-    <string name="o_nama_lista">
-        \n<ul>
-            \n<li>Dankovečka ulica 6 – Zagreb, Dubrava \n</li>
-            \n<li>Dankovečka ulica 6 – Zagreb, Dubrava</li>
-        \n</ul>
-    </string>
+    <!-- About App Fragment Text -->
+    <string name="about_app_heading">O aplikaciji</string>
+    <string name="app_name_string">"maskice.hr Službena Android&#8482; Aplikacija"</string>
+    <string name="verzija">Verzija aplikacije</string>
+    <string name="verzija_code">2.0</string>
+    <string name="izradio">Izradio</string>
+    <string name="izradio_autor">Marko Idzan</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 
 </resources>

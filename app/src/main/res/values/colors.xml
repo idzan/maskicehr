@@ -4,5 +4,9 @@
     <color name="colorPrimaryDark">#ffd830</color>
     <color name="colorAccent">#0D3FFF</color>
     <color name="side_nav_bar">#ffd819</color>
-    <color name="card_view_light_background">#fafcff</color>
+    <color name="card_view_light_background">#ffffff</color>
+    <color name="card_view_background_shadow">#FFE0E0E0</color>
+    <color name="grey_300">#E0E0E0</color>
+    <color name="grey_400">#BDBDBD</color>
+
 </resources>
