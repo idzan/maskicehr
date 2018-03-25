@@ -42,6 +42,13 @@
     <string name="izradio_autor">Marko Idzan</string>
     <string name="changelog">Dnevnik promjena aplikacije (Changelog)</string>
     <string name="verzija_2_0">Verzija 2.0</string>
+    <string name="verzija_1_5_1">Verzija 1.5.1</string>
+    <string name="verzija_1_5">Verzija 1.5</string>
+    <string name="verzija_1_4">Verzija 1.4</string>
+    <string name="verzija_1_3">Verzija 1.3</string>
+    <string name="verzija_1_2">Verzija 1.2</string>
+    <string name="verzija_1_1">Verzija 1.1</string>
+    <string name="verzija_1_0">Verzija 1.0</string>
     <string name="verzija_2_0_promjene">
         Vizualne promjene u aplikaciji i optimizacije
         \nUsklađivanje navigacije s web shop-om
@@ -49,6 +56,39 @@
         \nDodana je rana podrška za Android&#8482; P sustav, \"notch\" na ekranima kao i 64-bitnu platformu
         \n
     </string>
-    
+    <string name="verzija_1_5_1_promjene">
+        Ispravak bug-ova
+        \nUsklađivanje navigacije s web shop-om
+        \n
+    </string>
+    <string name="verzija_1_5_promjene">
+        Fix - web chat prozor se otvarao u vanjskom pregledniku
+        \nOptmizacije aplikacije
+        \n
+    </string>
+    <string name="verzija_1_4_promjene">
+        Ispravak bug-ova
+        \nDodana je podrška za Android&#8482; 8.1 Oreo
+        \n
+    </string>
+    <string name="verzija_1_3_promjene">
+        Ispravak bug-ova
+        \nPoboljšana navigacija
+        \nOptimizacija za uređaje s 18:9 (2:1) Aspect Ratiom
+        \n
+    </string>
+    <string name="verzija_1_2_promjene">
+        Dodana podrška za Adaptive Icons
+        \n
+    </string>
+    <string name="verzija_1_1_promjene">
+        Ispravak bug-ova
+        \nDodana je podrška za Android&#8482; 8.0 Oreo
+        \n
+    </string>
+    <string name="verzija_1_0_promjene">
+        Prvo izdanje aplikacije
+        \n
+    </string>
 
 </resources>
