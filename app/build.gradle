@@ -4,9 +4,9 @@ android {
     compileSdkVersion 'android-P'
     defaultConfig {
         applicationId "hr.maskice.maskicehr"
-        minSdkVersion 'P'
+        minSdkVersion 21
         targetSdkVersion 'P'
-        versionCode 200
+        versionCode 203
         versionName "2.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
