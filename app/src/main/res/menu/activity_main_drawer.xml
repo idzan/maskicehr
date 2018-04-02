@@ -3,24 +3,36 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:showIn="navigation_view">
 
-    <group android:checkableBehavior="single">
+    <group
+        android:id="@+id/grp_master"
+        android:checkableBehavior="single">
+
         <item
             android:id="@+id/homepage"
             android:title="@string/naslovnica" />
+
         <item
             android:id="@+id/cart_page"
             android:title="@string/kosarica" />
+
         <item
             android:id="@+id/my_account_page"
             android:title="@string/racun" />
+
         <item
             android:id="@+id/nav_pretrazi"
             android:title="@string/pretrazi_stranicu" />
 
-        <item
-            android:title="@string/prodajni_asortiman" >
+    </group>
 
-            <menu>
+    <item
+        android:title="@string/prodajni_asortiman" >
+
+        <menu>
+
+            <group
+                android:id="@+id/grp_prodajni_asortiman"
+                android:checkableBehavior="single">
 
                 <item
                     android:id="@+id/nav_phones"
@@ -37,6 +49,7 @@
                 <item
                     android:id="@+id/nav_cameras"
                     android:title="@string/kamere" />
+
                 <item
                     android:id="@+id/nav_adapters"
                     android:title="@string/adapteri" />
@@ -48,9 +61,11 @@
                 <item
                     android:id="@+id/nav_chargers"
                     android:title="@string/punjaci" />
+
                 <item
                     android:id="@+id/nav_headsets"
                     android:title="@string/slusalice" />
+
                 <item
                     android:id="@+id/nav_speakers"
                     android:title="@string/zvucnici" />
@@ -71,14 +86,21 @@
                     android:id="@+id/nav_ostala_oprema"
                     android:title="@string/ostala_oprema" />
 
-            </menu>
+            </group>
 
-        </item>
+        </menu>
 
-        <item
-            android:title="@string/o_nama_submenu" >
+    </item>
 
-            <menu>
+    <item
+        android:title="@string/o_nama_submenu" >
+
+        <menu>
+
+            <group
+                android:id="@+id/grp_o_nama"
+                android:checkableBehavior="single">
+
                 <item
                     android:id="@+id/nav_o_nama"
                     android:title="@string/o_nama" />
@@ -98,9 +120,16 @@
                 <item
                     android:id="@+id/nav_kontakt"
                     android:title="@string/kontakt" />
-            </menu>
 
-        </item>
+            </group>
+
+        </menu>
+
+    </item>
+
+    <group
+        android:id="@+id/grp_about"
+        android:checkableBehavior="single">
 
         <item
             android:id="@+id/nav_about_app"
