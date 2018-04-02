@@ -1,4 +1,4 @@
-package hr.maskice.maskicehr;
+package maskice.hr;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;

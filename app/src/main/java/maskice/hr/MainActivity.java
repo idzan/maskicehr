@@ -1,4 +1,4 @@
-package hr.maskice.maskicehr;
+package maskice.hr;
 
 import android.os.Bundle;
 import android.support.annotation.NonNull;

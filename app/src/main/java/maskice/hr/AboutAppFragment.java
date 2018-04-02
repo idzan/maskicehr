@@ -1,4 +1,4 @@
-package hr.maskice.maskicehr;
+package maskice.hr;
 
 import android.content.Context;
 import android.net.Uri;
@@ -8,6 +8,7 @@ import android.support.v7.widget.CardView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+
 
 public class AboutAppFragment extends Fragment {
 
@@ -21,7 +22,8 @@ public class AboutAppFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_about_app, container, false);
+        return  inflater.inflate (R.layout.fragment_about_app, container, false);
+        /*return inflater.inflate(R.layout.fragment_about_app, container, false);*/
     }
 
 
