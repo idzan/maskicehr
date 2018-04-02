@@ -116,27 +116,32 @@
 
             <group
                 android:id="@+id/grp_o_nama"
-                android:checkableBehavior="single">
+                android:checkableBehavior="single" >
 
                 <item
                     android:id="@+id/nav_o_nama"
-                    android:title="@string/o_nama" />
+                    android:title="@string/o_nama"
+                    android:icon="@drawable/ic_business" />
 
                 <item
                     android:id="@+id/nav_prodajna_mjesta"
-                    android:title="@string/prodajna_mjesta" />
+                    android:title="@string/prodajna_mjesta"
+                    android:icon="@drawable/ic_map" />
 
                 <item
                     android:id="@+id/nav_servis"
-                    android:title="@string/servis" />
+                    android:title="@string/servis"
+                    android:icon="@drawable/ic_settings" />
 
                 <item
                     android:id="@+id/nav_veleprodaja"
-                    android:title="@string/veleprodaja" />
+                    android:title="@string/veleprodaja"
+                    android:icon="@drawable/ic_store" />
 
                 <item
                     android:id="@+id/nav_kontakt"
-                    android:title="@string/kontakt" />
+                    android:title="@string/kontakt"
+                    android:icon="@drawable/ic_contacts" />
 
             </group>
 
@@ -150,7 +155,8 @@
 
         <item
             android:id="@+id/nav_about_app"
-            android:title="@string/about_app" />
+            android:title="@string/about_app"
+            android:icon="@drawable/ic_public" />
 
     </group>
 
