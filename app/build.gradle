@@ -4,7 +4,7 @@ android {
     compileSdkVersion 'android-P'
     defaultConfig {
         applicationId "maskice.hr"
-        minSdkVersion 21
+        minSdkVersion 'P'
         targetSdkVersion 'P'
         versionCode 203
         versionName "2.0"
