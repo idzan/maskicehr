@@ -1,4 +1,4 @@
-package hr.maskice.maskicehr;
+package maskice.hr;
 
 import android.content.Context;
 import android.net.Uri;
