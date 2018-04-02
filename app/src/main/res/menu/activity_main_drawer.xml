@@ -3,108 +3,160 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:showIn="navigation_view">
 
-    <group android:checkableBehavior="single">
+    <group
+        android:id="@+id/grp_master"
+        android:checkableBehavior="single">
+
         <item
             android:id="@+id/homepage"
-            android:title="@string/naslovnica" />
+            android:title="@string/naslovnica"
+            android:icon="@drawable/ic_home" />
+
         <item
             android:id="@+id/cart_page"
-            android:title="@string/kosarica" />
+            android:title="@string/kosarica"
+            android:icon="@drawable/ic_shopping_cart" />
+
         <item
             android:id="@+id/my_account_page"
-            android:title="@string/racun" />
+            android:title="@string/racun"
+            android:icon="@drawable/ic_account_box" />
+
         <item
             android:id="@+id/nav_pretrazi"
-            android:title="@string/pretrazi_stranicu" />
+            android:title="@string/pretrazi_stranicu"
+            android:icon="@drawable/ic_search" />
 
-        <item
-            android:title="@string/prodajni_asortiman" >
+    </group>
 
-            <menu>
+    <item
+        android:title="@string/prodajni_asortiman" >
+
+        <menu>
+
+            <group
+                android:id="@+id/grp_prodajni_asortiman"
+                android:checkableBehavior="single" >
 
                 <item
                     android:id="@+id/nav_phones"
-                    android:title="@string/oprema_za_mobitel" />
+                    android:title="@string/oprema_za_mobitel"
+                    android:icon="@drawable/ic_smartphone" />
 
                 <item
                     android:id="@+id/nav_universal_phone_cases"
-                    android:title="@string/oprema_za_mobitel_univerzalno" />
+                    android:title="@string/oprema_za_mobitel_univerzalno"
+                    android:icon="@drawable/ic_phone_android" />
 
                 <item
                     android:id="@+id/nav_tablets"
-                    android:title="@string/oprema_za_tablet" />
+                    android:title="@string/oprema_za_tablet"
+                    android:icon="@drawable/ic_tablet" />
 
                 <item
                     android:id="@+id/nav_cameras"
-                    android:title="@string/kamere" />
+                    android:title="@string/kamere"
+                    android:icon="@drawable/ic_camera_alt" />
+
                 <item
                     android:id="@+id/nav_adapters"
-                    android:title="@string/adapteri" />
+                    android:title="@string/adapteri"
+                    android:icon="@drawable/ic_device_hub" />
 
                 <item
                     android:id="@+id/nav_holders"
-                    android:title="@string/drzaci" />
+                    android:title="@string/drzaci"
+                    android:icon="@drawable/ic_dock" />
 
                 <item
                     android:id="@+id/nav_chargers"
-                    android:title="@string/punjaci" />
+                    android:title="@string/punjaci"
+                    android:icon="@drawable/ic_battery_std" />
+
                 <item
                     android:id="@+id/nav_headsets"
-                    android:title="@string/slusalice" />
+                    android:title="@string/slusalice"
+                    android:icon="@drawable/ic_headset" />
+
                 <item
                     android:id="@+id/nav_speakers"
-                    android:title="@string/zvucnici" />
+                    android:title="@string/zvucnici"
+                    android:icon="@drawable/ic_speaker" />
 
                 <item
                     android:id="@+id/nav_gadgets"
-                    android:title="@string/gadgeti"/>
+                    android:title="@string/gadgeti"
+                    android:icon="@drawable/ic_devices_other" />
 
                 <item
                     android:id="@+id/nav_memory"
-                    android:title="@string/memorije" />
+                    android:title="@string/memorije"
+                    android:icon="@drawable/ic_sd_storage" />
 
                 <item
                     android:id="@+id/nav_racunalna_oprema"
-                    android:title="@string/racunalna_periferija" />
+                    android:title="@string/racunalna_periferija"
+                    android:icon="@drawable/ic_computer" />
 
                 <item
                     android:id="@+id/nav_ostala_oprema"
-                    android:title="@string/ostala_oprema" />
+                    android:title="@string/ostala_oprema"
+                    android:icon="@drawable/ic_toys" />
 
-            </menu>
+            </group>
 
-        </item>
+        </menu>
 
-        <item
-            android:title="@string/o_nama_submenu" >
+    </item>
 
-            <menu>
+    <item
+        android:title="@string/o_nama_submenu" >
+
+        <menu>
+
+            <group
+                android:id="@+id/grp_o_nama"
+                android:checkableBehavior="single" >
+
                 <item
                     android:id="@+id/nav_o_nama"
-                    android:title="@string/o_nama" />
+                    android:title="@string/o_nama"
+                    android:icon="@drawable/ic_business" />
 
                 <item
                     android:id="@+id/nav_prodajna_mjesta"
-                    android:title="@string/prodajna_mjesta" />
+                    android:title="@string/prodajna_mjesta"
+                    android:icon="@drawable/ic_map" />
 
                 <item
                     android:id="@+id/nav_servis"
-                    android:title="@string/servis" />
+                    android:title="@string/servis"
+                    android:icon="@drawable/ic_settings" />
 
                 <item
                     android:id="@+id/nav_veleprodaja"
-                    android:title="@string/veleprodaja" />
+                    android:title="@string/veleprodaja"
+                    android:icon="@drawable/ic_store" />
 
                 <item
                     android:id="@+id/nav_kontakt"
-                    android:title="@string/kontakt" />
-            </menu>
+                    android:title="@string/kontakt"
+                    android:icon="@drawable/ic_contacts" />
 
-        </item>
+            </group>
+
+        </menu>
+
+    </item>
+
+    <group
+        android:id="@+id/grp_about"
+        android:checkableBehavior="single">
 
         <item
             android:id="@+id/nav_about_app"
-            android:title="@string/about_app" />
+            android:title="@string/about_app"
+            android:icon="@drawable/ic_public" />
 
     </group>
 
