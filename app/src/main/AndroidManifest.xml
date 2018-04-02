@@ -3,6 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="maskice.hr" >
 
+    <uses-feature android:name="android.hardware.ram.low" android:required="true" />
+
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application

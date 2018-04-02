@@ -6,7 +6,7 @@ android {
         applicationId "hmaskice.hr"
         minSdkVersion 21
         targetSdkVersion 27
-        versionCode 200
+        versionCode 202
         versionName "2.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
