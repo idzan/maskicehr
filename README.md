@@ -5,6 +5,10 @@ Službena Android aplikacija za maskice.hr web shop.
 
 # Download link
 
+### Obavijest: Aplikacija je Unpublishana s Play Store(TM) zbog velikih promjena unutar strukture web stranice. Dozvoljena je izrada Fork-a aplikacije te daljnje modifikacije od strane developera nove web stranice. Link je deprecated od dana 15.04.2020.
+
+### Amazon App Store Link je deprecated od dana 15.04.2020.
+
 Play Store - https://play.google.com/store/apps/details?id=maskice.hr
 
 Amazon App Store - http://amzn.to/2xcnIPw
